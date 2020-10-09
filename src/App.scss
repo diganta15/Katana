@@ -1,0 +1,74 @@
+.header {
+	border-bottom: 1px black solid;
+	display: flex;
+	justify-content: space-between;
+
+    
+	.headerText {
+		flex: 2;
+		text-align: center;
+		padding: 0px;
+	}
+}
+
+
+	.hamburger {
+		flex: 0;
+        margin-left: 3px;
+        cursor: pointer;
+
+		.div {
+			width: 35px;
+			height: 5px;
+			background-color: black;
+			margin: 6px 0;
+		}
+	}
+
+.hidden{
+    display: none;
+}
+
+.navBar{
+    position: fixed;
+    float: left;
+    height: 100%;
+    z-index: 1;
+    background-color: grey;
+    top: 0;
+    width: 15rem;
+}
+
+.line{
+    padding: 0px;
+    margin:0px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.loginButton{
+    margin-top: 10px;
+}
+
+.loginForm{
+    background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+
+  .loginFields{
+      display: flex;
+      flex-direction: column;
+      
+  }
+
+  input:active{
+      border-color: black;
+  }
+  .loginButton{
+      background-color: blueviolet;
+      border-color: black;
+      border-radius: 3px;
+  }
+}
