@@ -11,6 +11,23 @@
 	}
 }
 
+//Dark Mode
+
+.headerDark {
+	border-bottom: 1px white solid;
+	display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+    
+	.headerText {
+		flex: 2;
+		text-align: center;
+        padding: 0px;
+        color: white;
+	}
+}
+
 
 	.hamburger {
 		flex: 0;
@@ -21,6 +38,20 @@
 			width: 35px;
 			height: 5px;
 			background-color: black;
+			margin: 6px 0;
+		}
+    }
+    
+    //Dark Mode
+    .hamburgerDark {
+		flex: 0;
+        margin-left: 3px;
+        cursor: pointer;
+
+		.div {
+			width: 35px;
+			height: 5px;
+			background-color: white;
 			margin: 6px 0;
 		}
 	}
@@ -37,6 +68,24 @@
     background-color: grey;
     top: 0;
     width: 15rem;
+
+    .about{
+        padding: 10px;
+        border: 3px solid black;
+        border-bottom: none;
+       
+    }
+    .github{
+        padding: 10px;
+        border: 3px solid black;
+        
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+        font-size: large;
+    }
 }
 
 .line{
@@ -72,3 +121,29 @@
       border-radius: 3px;
   }
 }
+
+.modes{
+    flex:0.3;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 8px;
+    border: solid black 2px;
+    border-radius: 8px;
+    padding: 0px;
+    cursor: pointer;
+    background-color: white;
+
+    svg{
+        padding:0px
+    }
+}
+
+
+//Desktop View
+// @media (min-width:768px)
+// {
+//     .header{
+//         display: block;
+//     }
+// }
